@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <!--CSS Stylesheet-->
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div><p>Awesome Books</p></div>
+    <nav>
+      <ul class="nav">
+        <li><a href="#" id="link-list" data-section="listBook">List</a></li>
+        <li><hr></li>
+        <li><a href="#" id="link-add" data-section="newBook">Add new</a></li>
+        <li><hr></li>
+        <li><a href="#contactSection" id="link-contact" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+    <div class="containerDate"><p id="today"></p></div>
+  <section class="listBook">
+    <h1>All Awesome Books</h1>
+    <ul id="containerBooks">
+    </ul>
+  </section>
+  <section class="newBook hidden">
+    <form class="form" id="form1">
+        <h1>Add a new book</h1>
+        <div> 
+            <input type="text" id="title" class="title1" placeholder="Title" required>
+        </div>
+        <div>
+            <input type="text" id="author" class="author1" placeholder="Author" required>
+        </div>
+        <div class="addBtn">
+          <button type="submit" class="addBook">Add</button>
+        </div>
+      </form>
+  </section>
+  <section class="contact hidden" id="contactSection">
+    <h1>Contact information</h1>
+    <p>Do have any questions or just want to say "Hello"?<br>You can reach out to us!</p>
+    <ul>
+      <li>Our e-mail mail@mail.com</li>
+      <li>Our Phone number: 0043586534422</li>
+      <li>Our address: Street name 22, 84503 City. Country.</li>
+    </ul>
+  </section>
+  <footer>
+    Copyright ...
+  </footer>
+<script type="module" src="./index.js"></script>
+</body>
+</html>
