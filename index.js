@@ -1,4 +1,5 @@
-import { DateTime } from "./modules/luxon.js";
+/* eslint-disable */
+import { DateTime } from './modules/luxon.js';
 import { Book } from "./modules/books.js";
 import { Display } from "./modules/bookDesplay.js";
 
