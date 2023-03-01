@@ -84,7 +84,6 @@ To get a local copy of this exercice, Please follow these simple example steps.
 5. after finishing step 5, run this command npm start to run the project
 6. for testing components, you can run: npm run test.
 
-Now you can go and play with it as you wish :smile:
 
 ## 👥 Authors <a name="authors"></a>
 
