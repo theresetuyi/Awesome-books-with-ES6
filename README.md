@@ -77,7 +77,7 @@ To get a local copy of this exercice, Please follow these simple example steps.
 
 2. Navigate to the location of the folder in your machine:
 
-**`` C:\Users\PATH\src\my project\Awesome-books-with-ES6>``**
+**``C:\Users\PATH\code\Awesome-books-with-ES6>``**
 
 3. Press Enter to navigate to your local clone.
 4. Open terminal and run this command npm install
