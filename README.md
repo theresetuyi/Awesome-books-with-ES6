@@ -62,7 +62,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 **Open the live-demo of the project**
-[Project Link][]
+[Project Link][https://theresetuyi.github.io/Awesome-books-with-ES6/]
 
 <!-- GETTING STARTED -->
 
@@ -115,11 +115,11 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]()
+Feel free to check the [issues page](https://github.com/theresetuyi/Awesome-books-with-ES6/issues)
 
 ## Acknowledgments
 
 This project has been created in reference to the template created by
 
 ## 📝 License
-This project is [MIT]() licensed.
+This project is [MIT] licensed.
