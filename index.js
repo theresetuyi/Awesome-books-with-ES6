@@ -1,7 +1,7 @@
 /* eslint-disable */
-import { DateTime } from './modules/luxon.js';
-import { Book } from "./modules/books.js";
-import { Display } from "./modules/bookDesplay.js";
+import { DateTime } from "./modules/luxon.js";
+import  {Book}  from "./modules/books.js";
+import { Display}  from "./modules/bookDesplay.js";
 
 let display;
 const today = document.getElementById('today');
