@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home Page</title>
-  <!--CSS Stylesheet-->
-  <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome BookList</title>
 </head>
-
 <body>
-  <div class="header">
-    <div><p>Awesome Books</p></div>
-    <nav>
-      <ul class="nav">
-        <li><a href="#" id="link-list" data-section="listBook">List</a></li>
-        <li><hr></li>
-        <li><a href="#" id="link-add" data-section="newBook">Add new</a></li>
-        <li><hr></li>
-        <li><a href="#contactSection" id="link-contact" data-section="contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="head">
+        <p>Awesome books</p>
+        <nav>
+            <ul class="nav">
+                <li class="displayList"><a href="#table-section">List</a></li>
+                <li><hr></li>
+                <li class="displayAdd"><a href="#addbook">Add new</a></li>
+                <li><hr></li>
+                <li class="displayContact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="containerDate"><p id="today"></p></div>
-  <section class="listBook">
+    <span class="time"></span>
+    <div id="table-section" class="table-section">
     <h1>All Awesome Books</h1>
-    <ul id="containerBooks">
-    </ul>
-  </section>
-  <section class="newBook hidden">
-    <form class="form" id="form1">
-        <h1>Add a new book</h1>
-        <div> 
-            <input type="text" id="title" class="title1" placeholder="Title" required>
-        </div>
-        <div>
-            <input type="text" id="author" class="author1" placeholder="Author" required>
-        </div>
-        <div class="addBtn">
-          <button type="submit" class="addBook">Add</button>
-        </div>
-      </form>
-  </section>
-  <section class="contact hidden" id="contactSection">
-    <h1>Contact information</h1>
-    <p>Do have any questions or just want to say "Hello"?<br>You can reach out to us!</p>
-    <ul>
-      <li>Our e-mail mail@mail.com</li>
-      <li>Our Phone number: 0043586534422</li>
-      <li>Our address: Street name 22, 84503 City. Country.</li>
-    </ul>
-  </section>
-  <footer>
-    Copyright ...
-  </footer>
+    <table class="book-list"></table>
+    </div>
+    <div id="addbook" class="addbook">
+        <form id="form" class="form1">
+            <h1>Add a new book</h1>
+            <div>
+                <input type="text" id="title" class="title1" placeholder="title" required>
+             </div>
+            <div>
+                <input type="text" id="author" class="author1" placeholder="author" required>
+            </div>
+            <button type="submit" class="add">Add</button>
+        </form>
+    </div>
+    <div id="contact" class="contact">
+        <h1>Contact Information</h1>
+        <p>Do you have any questions or just want to say "Hello"?<br>You can reach out to us!</p>
+        <ul>    
+            <li>Our email: ericandsharon@gmail.com</li>
+            <li>Our phone number: 012345678 </li>
+            <li>Our address: Kilimani, 80, 0100 Nairobi, Kenya </li>
+        </ul>
+    </div>
+    <footer>Copyright ...</footer>
 <script type="module" src="./index.js"></script>
 </body>
 </html>
